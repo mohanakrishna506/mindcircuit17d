@@ -15,16 +15,18 @@
 	</properties>
 
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>NexusRepo</id>
-		    <url>http://54.82.92.150:8081/repository/batch17d-repo-snapshot/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>NexusRepo</id>
-		    <url>http://54.82.92.150:8081/repository/batch17d-repo-release/</url>
-		</repository>
-  	</distributionManagement>
+    
+    <snapshotRepository>
+        <id>NexusRepo</id>
+        <url>http://ec2-35-168-22-26.compute-1.amazonaws.com:8081/repository/mypro_snapshot/</url>
+    </snapshotRepository>
+    
+    <repository>
+        <id>NexusRepo</id>
+        <url>http://ec2-35-168-22-26.compute-1.amazonaws.com:8081/repository/mypro_release/</url>
+    </repository>
+    
+</distributionManagement>
     
     <build>
         <plugins>
