@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: tomcat
+        image: krishna1802/krishna:v1
 
         ports:
         - containerPort: 8080
